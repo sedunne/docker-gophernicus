@@ -23,5 +23,5 @@ Gophernicus is intended to be used as a stream listener, and is not a daemon. Be
 
 This project is licensed under the MIT license.
 
-By using this image, you agree to the license and terms set by the original author, found under [ATTRIBUTION](https://github.com/sedunne/docker-gophernicus/blob/master/ATTRIBUTION.md).
+By using this image, you agree to the license and terms set by the original author, found under [ATTRIBUTION](https://github.com/sedunne/docker-gophernicus/blob/master/ATTRIBUTION).
 
