@@ -1,8 +1,8 @@
 # Alpine Gophernicus Docker Image
 
-(unofficial) Docker image for the [Gophernicus](http://gophernicus.org/software/gophernicus/) Gopher server.
+(unofficial) Docker image for the [Gophernicus](https://github.com/kimholviala/gophernicus) Gopher server.
 
-This image is built from the Alpine:latest image, and fetches the Gophernicus source from the authors server. Images are automatically built from my [GitHub repo](https://github.com/sedunne/docker-gophernicus).
+This image is built from the Alpine:latest image, and fetches the Gophernicus source from the master Github branch. Images are automatically built from my [GitHub repo](https://github.com/sedunne/docker-gophernicus).
 
 ### Use via Docker Hub
 
