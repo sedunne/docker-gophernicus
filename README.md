@@ -17,7 +17,9 @@ cd docker-gophernicus && docker build -t gophernicus .
 
 ### Notes
 
-Gophernicus is intended to be used as a stream listener, and is not a daemon. Because of this, the Alpine-native version of `nc` (netcat) is used as the 'listener', executing Gophernicus on request.
+Previous verisions of the image used netcat as a stream listener to invoke Gophernicus on request (as it's not a daemon). This has been switched to s6-tcpserver to be a bit less hacky, and also provide some degree of log output.
+
+Gophernicus will also log to /var/log/gophernicus.log in the container, but since it's spawned from s6-tcpserver, I wasn't able to get the logs merged into the fd that `docker logs` uses to make them viewable from the outside.
 
 ### License
 
